@@ -13,6 +13,7 @@ val Inter = FontFamily(
     Font(R.font.inter_28pt_regular),
     Font(R.font.inter_18pt_bold),
     Font(R.font.inter_28pt_bold),
+    Font(R.font.inter_24pt_bold),
 )
 
 // Set of Material typography styles to start with
@@ -24,16 +25,21 @@ val Typography = Typography(
     ),
     displayMedium = TextStyle(
         fontFamily = Inter,
-        fontSize = 28.sp,
+        fontSize = 18.sp,
     ),
     titleLarge = TextStyle(
         fontFamily = Inter,
         fontWeight = FontWeight.Bold,
         fontSize = 18.sp,
     ),
+    titleMedium = TextStyle(
+        fontFamily = Inter,
+        fontWeight = FontWeight.Bold,
+        fontSize = 24.sp
+    ),
     labelMedium = TextStyle(
         fontFamily = Inter,
         fontWeight = FontWeight.Bold,
-        fontSize = 28.sp,
+        fontSize = 18.sp,
     ),
 )
